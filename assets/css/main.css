@@ -3968,6 +3968,13 @@ body.is-preload #sidebar nav ul li {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+/* .lottie{
+  flex-direction: row;
+}
+.lottie-branch{
+  border-width:10;
+  flex-direction: row;
+} */
 
 #intro p {
   font-size: 1.25em;
