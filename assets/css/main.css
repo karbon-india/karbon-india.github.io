@@ -1933,7 +1933,7 @@ button,
   border: solid 1px !important;
   border-color: rgba(255, 255, 255, 0.15) !important;
   border-radius: 3em;
-  color: #ffffff !important;
+  color:white !important;
   cursor: pointer;
   display: inline-block;
   font-size: 0.6em;
@@ -2013,7 +2013,7 @@ input[type="button"].primary,
 button.primary,
 .button.primary {
   background-color: #ffffff;
-  color: #312450 !important;
+  color: white !important;
 }
 
 input[type="submit"].primary:after,
@@ -2044,7 +2044,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  border-color: rgba(255, 255, 255, 0.55) !important;
+  border-color: rgba(16, 36, 2, 0.55) !important;
 }
 
 input[type="submit"]:hover:after,
@@ -3326,8 +3326,8 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: #1b9b28;
-  color: black;
+  background-color: rgb(55, 85, 48);
+  color: whitesmoke;
 }
 
 .wrapper.style1-alt {
@@ -3597,7 +3597,7 @@ img {
 }
 
 #footer > .inner a {
-  border-bottom-color: rgba(255, 255, 255, 0.15);
+  border-bottom-color: rgba(148, 37, 37, 0.15);
 }
 
 #footer > .inner a:hover {
@@ -3611,6 +3611,15 @@ img {
 
 #header + #wrapper + #footer > .inner {
   margin: 0 auto;
+}
+
+#footer{
+  background-repeat: no-repeat;  
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  background-color: white;
+  background-image: url("../../images/footer-image.png");
 }
 
 /* Sidebar */
