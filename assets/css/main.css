@@ -1931,9 +1931,9 @@ button,
   transition: border-color 0.2s ease;
   background-color: transparent;
   border: solid 1px !important;
-  border-color: rgba(255, 255, 255, 0.15) !important;
+  border-color: rgba(59, 156, 35, 0.15) !important;
   border-radius: 3em;
-  color:white !important;
+  color:rgb(0, 0, 0) !important;
   cursor: pointer;
   display: inline-block;
   font-size: 0.6em;
@@ -3326,8 +3326,8 @@ table.alt tfoot {
 }
 
 .wrapper.style1 {
-  background-color: rgb(55, 85, 48);
-  color: whitesmoke;
+  background-color: white;
+  color: black;
 }
 
 .wrapper.style1-alt {
@@ -3350,7 +3350,7 @@ table.alt tfoot {
   color: black;
 }
 .wrapper.style3 {
-  background-color: #A3F5AB;
+  background-color: #5bad64;
 }
 
 .wrapper.style3-alt {
