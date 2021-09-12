@@ -190,8 +190,26 @@
 
 
         <div class="split style1">
-          <section style="margin-top: 1%">
-            <img src="./images/process.png" alt="">
+          <section>
+            <form autocomplete="off" enctype="multipart/form-data" name="EmailForm" method="post" action="https://formspree.io/f/mgerdwnv">
+              <div class="fields">
+                <div class="field half">
+                  <label for="name">Name</label>
+                  <input autocomplete=off type="text" name="name" id="name" />
+                </div>
+                <div class="field half">
+                  <label for="email">Email</label>
+                  <input autocomplete=off type="text" name="email" id="email" />
+                </div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea autocomplete="off" name="message" id="message" rows="5"></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li><a href="" class="button submit" value="submit">Send Message</a></li>
+              </ul>
+            </form>
           </section>
           <section>
             <ul class="contact">
